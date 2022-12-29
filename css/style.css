@@ -1,0 +1,59 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Century Gothic;
+}
+
+ header{
+     background-image: url(../background.jpg);
+     height: 100vh;
+     background-size: cover;
+     backgrounf_position: center;
+}
+
+
+ul{
+   float: right;
+   list-style-type: none;
+   margin-top=25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    
+}
+ .p1 img{
+     float: left;
+     width: auto;
+     height: 745px;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+      color: #fff;
+      font-size: 70px;
+}
+.content{
+      position: absolute;
+      top: 37%;
+      left: 38%;
+      width: 50%;
+      transform: translateY(-50%,-50%);
+      text-align: left;
+      color: #fff;
+} 
